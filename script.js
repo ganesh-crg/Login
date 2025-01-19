@@ -10,7 +10,7 @@ function handleLogin() {
     // Validate credentials (add real validation logic here if needed)
     if (userId === "admin" && password === "1234") {
         // Redirect to the next page
-        window.location.href = "welcome.html";
+        window.location.href = "nextPage.html";
     } else {
         alert("Invalid credentials. Please try again.");
     }
